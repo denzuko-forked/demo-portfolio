@@ -4,19 +4,18 @@ A portfolio website
 
 ## Getting Started
 
-### Clone the repo
 ```bash
+## Clone the repo and link to src namespace
 npm i -s https://github.com/denzuko-forked/demo-portfolio.git
 ln -s node_modules/demo-portfolio src/
-```
-### Edit one's views
 
+$EDITOR src/
+npm run generate
+npx run
+```
 ### Build Setup
 
 ``` bash
-# install dependencies
-$ npm install # Or yarn install
-
 # serve with hot reload at localhost:3000
 $ npm run dev
 
@@ -26,6 +25,9 @@ $ npm start
 
 # generate static project
 $ npm run generate
+# Set ipfs-deploy environment varables: https://www.npmjs.com/package/ipfs-deploy#Usage
+## deploy to ipfs
+$ npx ipfs-deploy dist
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
