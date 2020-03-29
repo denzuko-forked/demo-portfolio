@@ -4,19 +4,13 @@ A portfolio website
 
 ## Getting Started
 
-Clone the project repository by running the command below if you use SSH
-
+### Clone the repo
 ```bash
-git clone git@github.com:ammezie/demo-portfolio.git
+git clone https://github.com/denzuko-forked/demo-portfolio.git
 ```
+### Edit one's views
 
-If you use https, use this instead
-
-```bash
-git clone https://github.com/ammezie/demo-portfolio.git
-```
-
-## Build Setup
+### Build Setup
 
 ``` bash
 # install dependencies
