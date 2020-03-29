@@ -6,7 +6,7 @@ A portfolio website
 
 ### Clone the repo
 ```bash
-git clone https://github.com/denzuko-forked/demo-portfolio.git
+npm i -s https://github.com/denzuko-forked/demo-portfolio.git
 ```
 ### Edit one's views
 
