@@ -7,6 +7,7 @@ A portfolio website
 ### Clone the repo
 ```bash
 npm i -s https://github.com/denzuko-forked/demo-portfolio.git
+ln -s node_modules/demo-portfolio src/
 ```
 ### Edit one's views
 
