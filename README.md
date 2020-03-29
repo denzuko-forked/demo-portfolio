@@ -7,7 +7,7 @@ A portfolio website
 ```bash
 ## Clone the repo and link to src namespace
 npm i -s https://github.com/denzuko-forked/demo-portfolio.git
-ln -s node_modules/demo-portfolio src/
+ln -s node_modules/@portfolio src/
 
 $EDITOR src/
 npm run generate
