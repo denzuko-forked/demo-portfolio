@@ -8,6 +8,7 @@ A portfolio website
 ## Clone the repo and link to src namespace
 npm i -s https://github.com/denzuko-forked/demo-portfolio.git
 ln -s node_modules/portfolio src/ ## must match the name from package.json
+ln -s src/package.json ## allows npm to function
 
 $EDITOR src/
 npm run generate
