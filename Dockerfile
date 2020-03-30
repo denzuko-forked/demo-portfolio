@@ -3,7 +3,7 @@ MAINTAINER Dwight Spencer (@denzuko) <denzuko@dallasmakerspace.org>
 
 # Build Parameters (PORT, ENVIRONMENT, VCS_URL)
 ARG PORT=3000
-ARG ENVIRONMENT="developemen'
+ARG ENVIRONMENT="development"
 ARG VCS_URL="https://github.com/denzuko-forked/demo-portfolio.git"
 
 ENV NUXT_HOST "0.0.0.0"
