@@ -17,9 +17,9 @@ WORKDIR /home/node
 EXPOSE ${PORT}
 
 ## Clone the repo and link it as src
-RUN git clone $VCS_URL src/ && \ 
-    npm install && \
-    npm run build
+RUN git clone --depth 1 $VCS_URL src/
+WORKDIR src
+RUN npm install && npm run build
 
 ## We're now a microservice, npm scripts rule over this app
 ENTRYPOINT npm
