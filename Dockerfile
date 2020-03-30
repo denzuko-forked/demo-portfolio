@@ -6,6 +6,7 @@ ARG PORT=3000
 ARG ENVIRONMENT="developemen'
 ARG VCS_URL="https://github.com/denzuko-forked/demo-portfolio.git"
 
+ENV NUXT_HOST "0.0.0.0"
 ENV PORT $PORT
 ENV NODE_ENV $ENVIRONMENT
 ENV VCS_URL $VCS_URL
